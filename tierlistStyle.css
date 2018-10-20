@@ -1,0 +1,88 @@
+#tierlist img, th{
+	width: 60px;
+	height: 60px;
+
+}
+
+#tierlist tr:nth-child(odd) td, #tierlist tr:nth-child(odd) th{
+	background-color: rgba(246, 246, 246, 0.4);
+	color: black;
+
+}
+
+
+#tierlist tr:nth-child(even) td, #tierlist tr:nth-child(even) th{
+	background-color: rgba(106, 106, 106, 0.25);
+	color: black;
+
+}
+
+#tierlist th, td{
+
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(202, 202, 202);
+	color: white;
+}
+
+.tierLane{
+	background-color:rgba(48,48,48,0.6); 
+
+}
+
+
+
+
+
+
+table, th, td {
+
+	padding: 0 160px 0 160px;
+	margin:5px 0 0 5px;
+}
+table{
+	margin-top: 20px !important;
+}
+th {
+	text-align: center;
+}
+td {
+	text-align: left;
+	padding: 5px;
+}
+p {
+	max-width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.champPhoto{
+	display: block;
+	margin: auto;
+}
+h1{
+	text-align: center;
+}
+#descPage{
+	text-align: center;
+	margin-left:auto;
+}
+
+
+
+
+
+
+
+
+
+
+

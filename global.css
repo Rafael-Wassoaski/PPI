@@ -1,0 +1,208 @@
+		body{
+			background-image: url("src/backgrounds/bg-default.jpg") ;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100%;
+			font-family: 'Raleway', sans-serif;
+			text-align: justify;
+			
+
+		}
+		li, p, h2, h3{
+			margin: auto;
+			padding: 0 30px 0 0;			
+		}
+
+		fieldset{
+			border:none;
+
+		}
+
+		.glossario{
+			overflow: scroll;
+			height: 520px;
+			border-color: black;
+			border: groove;
+			border-width: 1px;
+		}
+
+		.ancora {
+			border-radius: 10%;
+		}
+
+
+		a, .menu{
+			color: rgb(128,206,214);
+			text-decoration: none;
+
+		}
+
+		.menu:hover{
+			text-decoration: underline;
+			background-color: rgb(80,80,80);
+		}
+		a:hover{
+			color: hsl(186,51%,85%);
+		}
+
+
+		nav{
+			text-align: center;
+			margin: 5% 0 20px 0;
+			background-color:  rgb(48,48,49);
+
+		}
+
+
+
+
+		.ancora {
+			width: 60px;
+			height: 60px;
+			opacity: 0.8;
+		}
+
+
+		a:hover .ancora{
+			opacity:1;
+			border-color: white;
+			border-style: solid;
+			border-width: 1px;
+			
+
+			transition: width 0.5s, height 0.5s;
+
+		}
+
+
+
+
+		div{
+			border-color: black;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border-style: groove;
+			border-width: 1px;
+			background-color: rgba(48,48,48,0.6);
+
+			padding: 25px;
+
+		}
+
+
+		.champPhoto{
+			display: block;
+			margin: auto;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			float: left;
+		}
+		h1{
+			text-align: center;
+		}
+		#descPage{
+			text-align: center;
+			margin-left:auto;
+		}
+
+
+
+
+		article, caption, h2, h3, h1, legend, input{
+			color: white;
+			text-shadow: 2px 2px 5px black, 0 0 25px black, 0 0 5px black;
+		}
+		ul li, p, div{
+			color: white;
+		}
+
+		article{
+			text-align: left;
+			font-size: 25px;
+		}
+
+		section{
+			clear: left;
+			color: white;
+
+		}
+
+		.prosecontras{
+			border-width: 1px;
+			background-color: rgba(48,48,48,0);
+			margin-top: 25px;
+		}
+
+		.menu {
+			display: inline;
+			margin: auto;
+			text-align: center;
+			border-style: none;
+
+		}
+
+		main{
+			background-color: rgba(48,48,48,0.6);
+			margin:80px;
+
+		}
+		header{
+			text-align: center;
+			margin-top: 30px;
+		}
+
+		footer{
+			text-align: center;
+			background-color: rgb(48,48,48);
+			margin:30px 0 0 0;
+		}
+		footer div{
+			border-style: none;
+			display: block;
+			margin: auto;
+			text-align: center;
+			color: rgb(128,206,214);
+
+
+
+		}
+		footer div:hover{
+			background-color: rgb(80,80,80);
+			text-decoration: underline;
+
+		}
+
+		caption{
+			font-size: 25px;
+
+
+		}
+
+		#champsTable{
+			display: inline-block;
+			text-align: center;
+			margin:auto;
+			border-style: none;
+			position: relative;
+
+
+		}
+
+
+		#clearfix a:hover{
+			text-decoration: underline;
+		}
+
+		.laneSelection{
+			color: white;
+			display: inline;
+		}
+
+		.form{
+			margin:20px 0 20px 25px;
+		}
+
+		input{
+			background-color: grey;
+		}
+		
