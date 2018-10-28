@@ -10,6 +10,9 @@
 	<meta name="author" content="Fernando e Rafael" />
 	<link rel="icon" href="src/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="material.min.js"></script>
+	<link rel="stylesheet" href="material.css" /> 
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" type="text/css" href="global.css">
 	<title>Escolha Seu Suporte</title>
 
@@ -17,21 +20,28 @@
 
 <body>
 	<!--Cabeçalho-->
-	 <header>
-            <img src="src/backgrounds/oie_transparent.png">
-    </header>
-	<nav>
-		<div>
-			<a href="inicio.html"><div class="menu">Inicio</div></a>
-			<a href="escolhaSeuADC.html"><div class="menu">ADC</div></a>
-			<a href="escolhaSeuSuporte.html"><div class="menu">Suporte</div></a>
-			<a href="escolhaSeuMid.html"><div class="menu">Mid</div></a>
-			<a href="escolhaSeuJungler.html"><div class="menu">Jungle</div></a>
-			<a href="escolhaSeuTop.html"><div class="menu">Top</div></a>
-			<a href="newtierlist.html"><div class="menu">Tier List dos campeões do meta</div></a>
-			<a href="enviochamo.html"><div class="menu">Envie sua opinião</div></a>
-		</div>
-	</nav>
+	 <div class="mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header ">
+            <div>
+                <img src="src/backgrounds/oie_transparent.png">
+            </div>
+        </header>
+        
+        
+        
+        <nav>
+            <div> 
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect " href="inicio.html"><div class="menu">Inicio</div></a>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect " href="escolhaSeuADC.html"><div class="menu">ADC</div></a>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect " href="escolhaSeuSuporte.html"><div class="menu">Suporte</div></a>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect " href="escolhaSeuMid.html"><div class="menu">Mid</div></a>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect " href="escolhaSeuJungler.html"><div class="menu">Jungle</div></a>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect " href="escolhaSeuTop.html"><div class="menu">Top</div></a>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect " href="newtierlist.html"><div class="menu">Tier List dos campeões do meta</div></a>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect "href="enviochamo.html"><div class="menu">Envie sua opinião</div></a>
+            </div>
+        </nav>
+
 
 	<main>
 		<fieldset>
@@ -1119,6 +1129,8 @@
     <a href="newtierlist.html"><div>Tier List dos campeões do meta</div></a>
     <a href="enviochamo.html"><div>Envie sua opinião</div></a>
 </footer>
+
+</div>
 	</body>
 
 	</html>
