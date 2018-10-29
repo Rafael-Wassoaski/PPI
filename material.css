@@ -3869,13 +3869,14 @@ ul, ol {
   .mdl-button::-moz-focus-inner {
     border: 0; }
   .mdl-button:hover {
-    background-color: rgba(158,158,158, 0.20); }
+    background-color: #696969;
+     }
   .mdl-button:focus:not(:active) {
     background-color: rgba(0,0,0, 0.12); }
   .mdl-button:active {
     background-color: rgba(158,158,158, 0.40); }
   .mdl-button.mdl-button--colored {
-    color: rgb(63,81,181); }
+    color: rgb(100,255,181); }
     .mdl-button.mdl-button--colored:focus:not(:active) {
       background-color: rgba(0,0,0, 0.12); }
 
@@ -10146,9 +10147,9 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   margin: 0;
   padding: 4px 0;
   width: 100%;
-  background: none;
+  background: white;
   text-align: left;
-  color: inherit; }
+  color: black; }
   .mdl-textfield__input[type="number"] {
     -moz-appearance: textfield; }
   .mdl-textfield__input[type="number"]::-webkit-inner-spin-button, .mdl-textfield__input[type="number"]::-webkit-outer-spin-button {
@@ -10171,7 +10172,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 .mdl-textfield__label {
   bottom: 0;
   color: rgba(0,0,0, 0.26);
-  font-size: 16px;
+  font-size: 25px;
   left: 0;
   right: 0;
   pointer-events: none;
@@ -10197,8 +10198,8 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
   .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
     color: rgb(63,81,181);
-    font-size: 12px;
-    top: 4px;
+    font-size: 20px;
+    top: 1px;
     visibility: visible; }
   .mdl-textfield--floating-label.is-focused .mdl-textfield__expandable-holder .mdl-textfield__label,
   .mdl-textfield--floating-label.is-dirty .mdl-textfield__expandable-holder .mdl-textfield__label,
