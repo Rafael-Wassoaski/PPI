@@ -202,6 +202,7 @@
 
 		.form{
 			margin:20px 0 20px 25px;
+
 		}
 
 		input{
@@ -215,4 +216,19 @@
 		.h2Class{
 			font-color: white;
 		}
+
+		.mdl-navigation__link {
+			color: white;
+		}
+
+		header img{
+			margin-top: -60px;
+		}		
+
+		.formClass{
+			background-color: white !important;
+			color: black;
+		}
+
+
 		
